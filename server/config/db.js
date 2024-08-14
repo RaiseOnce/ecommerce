@@ -1,8 +1,8 @@
 const mongoose = require('mongoose')
 try {
-  mongoose.connect('mongodb://localhost:27017/ecommerce', {
+  mongoose.connect('mongodb://localhost:27017/Ecommerce', {
     useNewUrlParser: true,
-    useUnifiedTopology: false,
+    useUnifiedTopology: true,
     useCreateIndex: true,
   })
   console.log('Database Connected Successfully')
